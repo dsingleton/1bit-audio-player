@@ -7,9 +7,11 @@ h2. Improvements
 * Remove duplication of <code>1bit.js</code> and <code>1bit.swf</code> in each distribution. (Some github symlink magic?)
 * Add javascript tests for 1bit core
 * Test browser support and publish supported platform list, add bugs for those unsupported
+* Should detect presence of common JS libraries and defer to their methods where appropriate (DOM queries, class manipulation)
 
 h2. Features
 
+* Support being passed an array of DOM elements to apply 1bit players to. Allows users to use their own selecor rules in more advanced libraries.
 * Add state management so only one instance of the player plays at once
 * Create prototype HTML5 Audio version
 

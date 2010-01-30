@@ -12,7 +12,7 @@ The simplest way to use 1Bit is to get the stand-alone version from <code>distri
 
 h3. DEPENDENCIES
 
-1 Bit is designed to as stand alone as possible, however it does rely on some external javascript:
+1 Bit is designed to as stand alone as possible, you do not need a Javascript framework to use it. However it does rely on some external javascript:
 
 * "SWFObject":http://code.google.com/p/swfobject/ - Used to embed the flash players into the page safely and cross browser.
 

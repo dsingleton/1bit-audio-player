@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>1 Bit Audio Player</title>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="1bit.js"></script>
+<script type="text/javascript">
+	oneBit = new OneBit('1bit.swf');
+	oneBit.ready(function() {
+	    // Using specify you can set 'color', 'background', 'playerSize', 'position' and 'analytics' - all are optional
+		oneBit.specify('color', '#CC0000');
+		// Apply is called after options are specified and includes the CSS selector
+		oneBit.apply('a');
+	});
+</script>
+
+<style type="text/css">
+	.onebit_mp3 a { color: #CC0000; }
+</style>
+</head>
+<body>
+	<div>
+		<p>This <a href="test.mp3">example</a> will only play if you have an MP3 called 'test.mp3' in the same directory.</p>
+		<p>See the <a href="http://1bit.markwheeler.net">1 Bit website</a> for documentation and updates.</p>
+	</div>
+</body>
+</html>

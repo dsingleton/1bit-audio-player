@@ -1,0 +1,27 @@
+h1. 1 Bit Bookmarklet
+
+This allows you to apply 1bit any web page you visit by simply clicking a button in your browser
+
+Bookmarklet: <a href="javascript:function%20loadScript(scriptURL){var%20scriptElem=document.createElement('script');scriptElem.setAttribute('language','JavaScript');scriptElem.setAttribute('src',scriptURL);document.body.appendChild(scriptElem);}loadScript('http://1bit.markwheeler.net/bookmarklet.js');">Drag this link to your bookmarks or toolbar</a>
+
+h2. Code
+
+A non-compressed version of the bookmarklet looks like this:
+
+<pre>
+<code>
+function loadScript(scriptURL){
+    var scriptElem = document.createElement('script');
+    scriptElem.setAttribute('language','JavaScript');
+    scriptElem.setAttribute('src',scriptURL);
+    document.body.appendChild(scriptElem);
+}
+loadScript('http://1bit.markwheeler.net/bookmarklet.js');
+</code>
+</pre>
+
+h2. A note on security
+
+The bookmarklet version of 1bit.js is hosted on an external site and you should be aware you are placing your trust in the 1bit developers.
+
+

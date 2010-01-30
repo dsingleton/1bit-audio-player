@@ -1,0 +1,16 @@
+h1. Todo
+
+Things to do.
+
+h2. Improvements
+
+* Remove duplication of <code>1bit.js</code> and <code>1bit.swf</code> in each distribution. (Some github symlink magic?)
+* Add javascript tests for 1bit core
+* Test browser support and publish supported platform list, add bugs for those unsupported
+
+h2. Features
+
+* Add state management so only one instance of the player plays at once
+* Create prototype HTML5 Audio version
+
+h2. Bugs

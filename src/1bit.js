@@ -1,6 +1,3 @@
-// 1 Bit Audio Player v1.4
-// See http://1bit.markwheeler.net for documentation and updates
-
 function OneBit(pluginPath) {
 		// Object Vars
 	

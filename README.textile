@@ -2,31 +2,19 @@ h1. 1 BIT AUDIO PLAYER (v1.4)
 
 h2. INTRODUCTION
 
-1 Bit Audio Player is a very simple and lightweight Adobe Flash MP3 player with automatic JavaScript insertion. It's main purpose is to act as a quick in-page preview for audio files you link to from your website or blog.
+1 Bit Audio Player is a simple way to play .mp3 links on a webpage. It uses Javascript and Flash to automatically generate play buttons for each linked MP3 file, for inline playback.
 
-The player can be easily installed as a "WordPress plugin or used stand-alone in any website. Small audio players will than automatically appear next to any MP3s you link to.
+It's no longer officially supported, this code is available for anyone to branch and make use of. God speed.
 
-h2. INSTALLATION
-
-The simplest way to use 1Bit is to get the stand-alone version from <code>distributions/custom-install</code> and copy the files to your own server. <em>example.html</em> shows how to setup 1bit.
-
-h3. DEPENDENCIES
+h2. DEPENDENCIES
 
 1 Bit is designed to as stand alone as possible, you do not need a Javascript framework to use it. However it does rely on some external javascript:
 
 * "SWFObject":http://code.google.com/p/swfobject/ - Used to embed the flash players into the page safely and cross browser.
 
-h2. DISTRIBUTION
+h2. HOW TO USE
 
-h3. WORDPRESS PLUGIN INSTALLATION
-
-To install, simple extract the '1bit' folder into your 'wp-content/plugins/' directory. Once extracted, you must activate the plugin within the WordPress Site Admin 'Plugins' section. The 1 Bit Audio Player options will then appear within 'Options'.
-
-You should make sure your MP3 links are always to absolute paths.
-
-h3. CUSTOM INSTALLATION
-
-1 Bit can be used on any non-WordPress website simply by uploading the 'Custom Install' files to your web server and adding the following code within the <code><head></code> of your pages:
+1 Bit can be used by uploading the 'example' files to your web server and adding the following code within the <code><head></code> of your pages:
 
 <pre>
 <code>
@@ -49,11 +37,10 @@ h3. CUSTOM INSTALLATION
 
 You must then adjust the path to 1bit.swf within the line that creates a new 1 Bit object. All of the oneBit.specify lines are optional, however, oneBit.apply must be called and passed a valid CSS selector.
 
-h3. BOOKMARKLET
+h2. FAQs
 
-Details to come.
+Q: Are there plans to resume active development? 
+A: No, maybe, possibly. No plans, but i'd like to work on this project some more. There just isn't the time at the moment.
 
-h2. FURTHER INFORMATION
-
-More information and the latest updates can be found at
-http://1bit.markwheeler.net
+Q: Didn't there used to be a wordpress plugin and such?
+A: Yes, but it has been deprecated. There wasn't the time to help with support questions, so it was decided to kill it rather than have an unsupported version. If you're really fussed you can dig through the history of this repo.

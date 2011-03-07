@@ -1,18 +1,19 @@
 h1. Todo
 
-Things to do.
+h2. Wishlist features
 
-h2. Improvements
+If the project starts up again:
 
-* Remove duplication of <code>1bit.js</code> and <code>1bit.swf</code> in each distribution. (Some github symlink magic?)
-* Add javascript tests for 1bit core
-* Test browser support and publish supported platform list, add bugs for those unsupported
-* Should detect presence of common JS libraries and defer to their methods where appropriate (DOM queries, class manipulation)
+* Modal playback (no more than one sound at once)
+* Documentation of options
+* Make flash a single pixel player, do all styling in HTML/CSS.
+* HTML5 playback where supported
+* Support an array of DOM elements, rather than using our selector (let them use a nice library)
 
-h2. Features
+h2. Project house keeping
 
-* Support being passed an array of DOM elements to apply 1bit players to. Allows users to use their own selecor rules in more advanced libraries.
-* Add state management so only one instance of the player plays at once
-* Create prototype HTML5 Audio version
-
-h2. Bugs
+* Use sub module for
+* Proper tests
+* Simple build system (ala https://github.com/polvero/Kizzy)
+** Separate 1bit-specific code form utilities (selectors, class & event methods)
+** Current build process is manual packing. boo-urns

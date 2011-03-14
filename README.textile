@@ -6,6 +6,8 @@ h2. INTRODUCTION
 
 It's no longer officially supported, this code is available for anyone to branch and make use of. God speed.
 
+A memorial and former project homepage can be found at: http://1bit.markwheeler.net/rip/
+
 h2. DEPENDENCIES
 
 1 Bit is designed to as stand alone as possible, you do not need a Javascript framework to use it. However it does rely on some external javascript:
@@ -44,3 +46,6 @@ A: No, maybe, possibly. No plans, but i'd like to work on this project some more
 
 Q: Didn't there used to be a wordpress plugin and such?
 A: Yes, but it has been deprecated. There wasn't the time to help with support questions, so it was decided to kill it rather than have an unsupported version. If you're really fussed you can dig through the history of this repo.
+
+The original plugin/bookmarklet code is available, if you want to fork it:
+https://github.com/dsingleton/1bit-audio-player/tree/36e3f5c90c2fe3ca9c2a610cdb29de13b26ca008
